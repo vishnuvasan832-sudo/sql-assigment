@@ -1,0 +1,13 @@
+create table  shop (
+  shop_id  int primary key not null,
+  shop_name varchar(50) not null,
+  product_name varchar(50) not null,
+  price decimal(10,2) default 10.00
+  );
+  
+  insert into shop (shop_id,shop_name,product_name,price) values ( 1,"new treands","tshirt",499.00);
+  insert into shop (shop_id,shop_name,product_name,price) values (2, "best boys","bagy pant",500.00);
+  insert into shop (shop_id,shop_name,product_name,price) values (3, "highlightes","shirt",999.00);
+  insert into shop (shop_id,shop_name,product_name) values (4,"chennai silks","band");
+  
+  select * from shop;
